@@ -29,6 +29,29 @@ Regardless of how content changes are done, they are submitted as pull requests 
 3. **Content update** is done automatically via a site rebuild once every 24 hours.
    Volunteers can see their changes go live within a day of merging.
 
+### Decision tree
+
+TODO: example decision tree in mermaid
+
+```mermaid
+graph TB
+  A("Do you think<br> online learning is right for you?")
+  B("Do you have time to design<br> a service learning component?")
+  C("What is the civic or public purpose of your discipline?<br> How do you teach that without service learning?")
+  D("Do you have departmental or school<br> support to plan and implement service learning?")
+  E["Are you willing to be a trailblazer?"]
+  F["What type of service learning to you want to plan?"]
+
+  A==Yes==>B
+  A--No-->C
+  B==Yes==>D
+  B--No-->C
+  D--Yes-->F
+  D--No-->E
+  E--Yes-->F
+  E--No-->C
+```
+
 ### Before you open a pull request
 
 Anyone who plans to open a PR to make a change on MDN Web Docs should:
