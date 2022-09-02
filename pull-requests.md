@@ -28,8 +28,7 @@ Regardless of how content changes are done, they are submitted as pull requests 
    The `CODEOWNERS` file specifies the teams who own certain content directories.
 2. **Approval:** The changes can be merged after a approving review has been made.
    The assigned reviewer will merge the pull request.
-3. **Content update** is done automatically via a site rebuild once every 24 hours.
-   Volunteers can see their changes go live within a day of merging.
+Updated content goes live within a day of merging via a site rebuild once every 24 hours.
 
 ### Decision tree
 
