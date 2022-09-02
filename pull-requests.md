@@ -23,7 +23,7 @@ Regardless of how content changes are done, they are submitted as pull requests 
 
 1. **Submission:** As a pull request author, you submit the changes. There are a few guidelines you need to be aware of before and after you open a pull request.
 
-1. **Reviewers** comprised of MDN staff members and volunteers are "topic review owners".
+2. **Review:** Your changes are reviewed by MDN staff members and volunteers.
    When a pull request related to a particular topic is opened, it will be assigned to that area's topic review owners.
    The `CODEOWNERS` file specifies the teams who own certain content directories.
 2. **Approved pull requests** can be merged after a approving review has been made.
