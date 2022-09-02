@@ -19,7 +19,9 @@ Content changes to MDN Web Docs are related to a variety of work streams, includ
   These issues are usually found by users of MDN Web Docs.
 - **Content bug fixes:** usually done by volunteers to close issues on `mdn/content` repo.
 
-Regardless of how content changes are done, they are submitted as pull requests (PRs) on GitHub:
+Regardless of how content changes are done, they are submitted as pull requests on GitHub. The content changes go through the following stages before they are published on MDN Web Docs:
+
+1. **Submission:** As a pull request author, you submit the changes. There are a few guidelines you need to be aware of before and after you open a pull request.
 
 1. **Reviewers** comprised of MDN staff members and volunteers are "topic review owners".
    When a pull request related to a particular topic is opened, it will be assigned to that area's topic review owners.
