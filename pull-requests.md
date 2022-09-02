@@ -72,7 +72,7 @@ Anyone who plans to open a PR to make a change on MDN Web Docs should:
 - **Don't enable auto-merge.**
 - **Add 'depends on'** if there are PRs that must land first (e.g. linked examples in other repos)
 
-### After you have opened a pull request
+### After you open a pull request
 
 - **Handle CI failures** from the automated tests run as GitHub Actions (see `.github/workflows`).
   If one or more of these tests fail, it is your responsibility to try and resolve them.
