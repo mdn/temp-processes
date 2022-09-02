@@ -52,7 +52,7 @@ graph TB
   E--Yes-->F
   E--No-->C
 ```
-
+## Guidelines for opening a pull request
 ### Before you open a pull request
 
 Anyone who plans to open a PR to make a change on MDN Web Docs should:
@@ -62,7 +62,7 @@ Anyone who plans to open a PR to make a change on MDN Web Docs should:
 - **File an issue describing what the PR will change.**
   When you submit a PR, reference this issue using `#` followed by the issue's ID, for example `#1234`.
 
-### Making a pull request
+### Opening a pull request
 
 - **PRs should be short and focused to one issue** or a related set of changes.
   If a PR becomes too large, the reviewer may close your PR and ask that you submit a separate PR for each logical set of changes that belong together.
