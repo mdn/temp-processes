@@ -22,13 +22,12 @@ Content changes to MDN Web Docs are related to a variety of work streams, includ
 Regardless of how content changes are done, they are submitted as pull requests on GitHub. The content changes go through the following stages before they are published on MDN Web Docs:
 
 1. **Submission:** As a pull request author, you submit the changes. There are a few guidelines you need to be aware of before and after you open a pull request.
-
 2. **Review:** Your changes are reviewed by MDN staff members and volunteers.
    When a pull request related to a particular topic is opened, it will be assigned to that area's topic review owners.
    The `CODEOWNERS` file specifies the teams who own certain content directories.
-2. **Approval:** The changes can be merged after a approving review has been made.
+3. **Approval:** The changes can be merged after a approving review has been made.
    The assigned reviewer will merge the pull request.
-Updated content goes live within a day of merging via a site rebuild once every 24 hours.
+4. **Publishing:** Updated content goes live within a day of merging via a site rebuild once every 24 hours.
 
 ### Decision tree
 
