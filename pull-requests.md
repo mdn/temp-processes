@@ -84,7 +84,7 @@ Anyone who plans to open a PR to make a change on MDN Web Docs should:
 
 - **Don't reopen closed PRs.** If you must create a new PR, it can reference the closed one.
 
-## Pull request assignees
+## Guidelines for reviewing a pull request
 
 A person is automatically assigned to review open PRs.
 If the author has someone specific in mind that they would like to review their work (e.g. you are working within a team) the author should assign/unassign relevant reviewers themselves.
