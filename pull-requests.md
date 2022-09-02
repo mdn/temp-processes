@@ -147,60 +147,17 @@ This section provides details for expected turnaround times while reviewing PRs 
 
 ## Topic owners
 
-Some of PRs submitted on the mdn/content repo relate to specific work streams being undertaken by browser vendors or other organizations that have a defined set of writers and reviewers. In these cases, the PR author of the PR will include the username of the reviewer in a line at the bottom of the pull request description, for example:
+Some of PRs submitted on the mdn/content repo relate to specific work streams being undertaken by browser vendors or other organizations that have a defined set of writers and reviewers. 
+In these cases, the PR author of the PR will include the username of the reviewer in a line at the bottom of the pull request description, for example:
 
+```md
 reviewer: @jpmedley
-Upon submitting the PR, they will request a review from the reviewer specified in the PR description. Once that reviewer has approved the new content, they will then ask you for an approval as required by the CODEOWNERS system for the pull request to be mergeable.
+```
+
+Upon submitting the PR, they will request a review from the reviewer specified in the PR description. 
+Once that reviewer has approved the new content, they will then ask you for an approval as required by the CODEOWNERS system for the pull request to be mergeable.
 Therefore, if you receive a PR review request and then see that you have been overridden with another reviewer in the manner described above, then don't review the changes — just wait for an approval request.
-Guidelines for reviewing a pull request
-These guidelines apply to anyone who is tasked with reviewing MDN Web Docs content PRs.
-Prerequisite knowledge and Github tools
 
-The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project. If you would like to help with MDN content reviews, get in touch with us.
-Note that changes to any content areas not explicitly listed below will be handled by the @core-yari-content team, which currently consists of @Rumyra.
+The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project. 
+If you would like to help with MDN content reviews, get in touch with us.
 
-- Web accessibility content:
-  - @ericwbailey
-- General learning content:
-  - @chrisdavidmills
-- CSS learning content:
-  - @rachelandrew
-- Server-side learning content:
-  - @hamishwillee
-- MDN meta docs — the @yari-content-mdn team, which consists of:
-  - @Rumyra
-  - @Elchi3
-- Firefox Developer Tools content:
-  - @hamishwillee
-- Mozilla Add-ons reference content — the @yari-content-mozilla-add-ons team, which consists of:
-  - @caitmuenster
-  - @rpl
-  - @Rob--W
-  - @zombie
-  - @mixedpuppy
-- HTTP reference content — the @yari-content-http team, which consists of:
-  - @hamishwillee
-  - @Elchi3
-  - @mirunacurtean
-- CSS reference content — the @yari-content-css team, which consists of:
-  - @rachelandrew
-  - @ericwbailey
-  - @mirunacurtean
-- HTML reference content — the @yari-content-html team, which consists of:
-  - @rachelandrew
-  - @ericwbailey
-  - @mirunacurtean
-- JavaScript reference content — the @yari-content-javascript team, which consists of:
-  - @Rumyra
-  - @sideshowbarker
-  - @Elchi3
-- Web API reference content — the @yari-content-web-api team, which consists of:
-  - @Rumyra
-  - @sideshowbarker
-  - @Elchi3
-  - @jpmedley
-- SVG reference content — the @yari-content-svg team, which consists of:
-  - @Ryuno-Ki
-    Reviewer alumni
-    The following folks used to be in one or more of our review teams, but no longer have the time to contribute; we want to give them our sincere thanks for all their help.
-- @vkWeb
