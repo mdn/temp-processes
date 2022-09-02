@@ -4,9 +4,9 @@
 
 The objective of this document is to have a single place with information from the following pages:
 
-- **PR etiquette:** https://github.com/mdn/content#pull-request-etiquette
-- **Reviewing PRs:** https://github.com/mdn/content/blob/main/REVIEWING.md
-- **Open source etiquette:** https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette
+- [**PR etiquette**](https://github.com/mdn/content#pull-request-etiquette)
+- [**Reviewing PRs**](https://github.com/mdn/content/blob/main/REVIEWING.md)
+- [**Open source etiquette**](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette)
 
 ## Contributing to MDN
 
@@ -51,7 +51,9 @@ graph TB
   E--Yes-->F
   E--No-->C
 ```
+
 ## Guidelines for opening a pull request
+
 ### Before you open a pull request
 
 Anyone who plans to open a PR to make a change on MDN Web Docs should:
@@ -154,10 +156,9 @@ In these cases, the PR author of the PR will include the username of the reviewe
 reviewer: @jpmedley
 ```
 
-Upon submitting the PR, they will request a review from the reviewer specified in the PR description. 
+Upon submitting the PR, they will request a review from the reviewer specified in the PR description.
 Once that reviewer has approved the new content, they will then ask you for an approval as required by the CODEOWNERS system for the pull request to be mergeable.
 Therefore, if you receive a PR review request and then see that you have been overridden with another reviewer in the manner described above, then don't review the changes — just wait for an approval request.
 
 The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project. 
 If you would like to help with MDN content reviews, get in touch with us.
-
