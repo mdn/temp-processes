@@ -104,7 +104,7 @@ If the author has someone specific in mind that they would like to review their 
 ### If you are assigned to review a PR
 
 - **Code examples should follow guidelines.**
-- **Check the MDN Writing style guide**, and use it to inform your review new content.
+- **Check the MDN Writing style guide**, and use it to inform your review of new content.
 - **Use GitHub's review tools:**
   - "Request changes" when submitting a review that will require the PR author to do some more work
   - "Suggest changes" if you have a concrete suggestion for the author
