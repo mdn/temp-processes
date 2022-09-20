@@ -16,7 +16,7 @@ The scope and status of an issue can be conveyed via a checklist or using labels
 
 - It should not be necessary to scroll through comments or replies to find the status of the task or sub-tasks.
 - The status of the task (or sub-tasks) must be visible in the issue description or via labels.
-- Updates to the status of the task should be done by editing the description, not by adding a comment reply to an issue.
+- Updates to the status of the task should be done by editing the issue description or task list instead of in a comment replying to an issue.
 
 ### Discussions
 

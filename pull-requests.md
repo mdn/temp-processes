@@ -58,10 +58,12 @@ graph TB
 
 Anyone who plans to open a PR to make a change on MDN Web Docs should:
 
-- **Open a discussion** to describe why you think the changes are required to improve the content.
-  This is important if your PR is a technical change, not typo fixes, grammatical improvements, formatting or structural changes.
-- **File an issue describing what the PR will change.**
-  When you submit a PR, reference this issue using `#` followed by the issue's ID, for example `#1234`.
+- **Check if the change is already tracked in an issue.**
+  If you find an issue that describes the change you want to make, you can add a comment to the issue to let others know you're working on it.
+- **Open a discussion** if your PR will contain large changes, not typo fixes, grammatical improvements, formatting or structural changes.
+  If you're not sure, open a discussion and ask for feedback.
+- **Create an issue** using the [content suggestion template](https://github.com/mdn/mdn/issues/new?labels=content+suggestion%2Cfeature+suggestion%2Cproposed&template=content-or-feature-suggestion.yml&title=A+short+title+that+begins+with+a+verb) if the changes you want to make are new additions to MDN Web Docs.
+  If you're not sure, open a discussion and ask for feedback.
 
 ### Opening a pull request
 
@@ -69,22 +71,29 @@ Anyone who plans to open a PR to make a change on MDN Web Docs should:
   If a PR becomes too large, the reviewer may close your PR and ask that you submit a separate PR for each logical set of changes that belong together.
 - **PRs should not contain large amounts of grammar updates**.
   MDN Web Docs contains technical documentation; you should not report improvements in the grammar, but cases where the grammar is incorrect are acceptable.
-- **PRs that update API usage need an accompanying mdn/content PR** to update the corresponding documentation.
-  PRs of this type may be rejected if there is no corresponding content PR.
+- **PRs that add demos should have an accompanying mdn/content PR** to ensure updated examples are served correctly.
+  If content changes along with example code usage, the associated demos should be updated.
 - **Don't enable auto-merge.**
-- **Add 'depends on'** if there are PRs that must land first (e.g. linked examples in other repos)
+- **Add 'depends on'** with a link if there are PRs that must land first (e.g. linked examples in other repos).
 
 ### After you open a pull request
 
 - **Handle CI failures** from the automated tests run as GitHub Actions (see `.github/workflows`).
-  If one or more of these tests fail, it is your responsibility to try and resolve them.
-  Your PR will not be approved and merged if these tests are failing.
+  If one or more of these tests fail, it is your responsibility to try to resolve them.
   If you don't know how to resolve the underlying issues, ask for help.
 
 - **Resolve merge conflicts** with the main branch; you are responsible for resolving these.
   You can do this by merging the main branch into your branch (`git pull mdn main`), and pushing the updated branch to your fork (git push).
 
-- **Don't reopen closed PRs.** If you must create a new PR, it can reference the closed one.
+- **Be responsive to feedback.**
+  This means being prepared to make changes to the pull request based on the review.
+  If a review happens and the changes are not made, the pull request may be closed.
+
+- **Be patient during the review process.**
+  The MDN organization receives a large volume of pull requests and the team may need time to review your contributions.
+
+- **Don't reopen closed PRs.**
+  If you must create a new PR, it can reference the closed one.
 
 ## Guidelines for reviewing a pull request
 
@@ -149,7 +158,7 @@ This section provides details for expected turnaround times while reviewing PRs 
 
 ## Topic owners
 
-Some of PRs submitted on the mdn/content repo relate to specific work streams being undertaken by browser vendors or other organizations that have a defined set of writers and reviewers. 
+Some of PRs submitted on the mdn/content repo relate to specific work streams being undertaken by browser vendors or other organizations that have a defined set of writers and reviewers.
 In these cases, the PR author of the PR will include the username of the reviewer in a line at the bottom of the pull request description, for example:
 
 ```md
@@ -160,5 +169,5 @@ Upon submitting the PR, they will request a review from the reviewer specified i
 Once that reviewer has approved the new content, they will then ask you for an approval as required by the CODEOWNERS system for the pull request to be mergeable.
 Therefore, if you receive a PR review request and then see that you have been overridden with another reviewer in the manner described above, then don't review the changes — just wait for an approval request.
 
-The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project. 
+The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project.
 If you would like to help with MDN content reviews, get in touch with us.
