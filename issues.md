@@ -2,7 +2,7 @@
 
 ## General guidelines
 
-An issue must be an actionable task.
+An issue must be an actionable task or an issue used to track multiple tasks.
 It must be clear at a glance what needs to be done for an issue to be resolved.
 
 **Issue titles:**
