@@ -169,5 +169,3 @@ Upon submitting the PR, they will request a review from the reviewer specified i
 Once that reviewer has approved the new content, they will then ask you for an approval as required by the CODEOWNERS system for the pull request to be mergeable.
 Therefore, if you receive a PR review request and then see that you have been overridden with another reviewer in the manner described above, then don't review the changes — just wait for an approval request.
 
-The following specific topic areas are being reviewed by the kind souls listed underneath them. Be kind to them, and thank them for all the help they give to this project.
-If you would like to help with MDN content reviews, get in touch with us.
