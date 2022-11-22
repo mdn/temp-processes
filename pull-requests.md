@@ -87,7 +87,7 @@ Do leave the door open to the author to ask for help, especially new contributor
 
 ### Reviewing a pull request
 
-When it comes to the changes in a pull request, all content must adhere to the [MDN Writing style guide] and examples should follow the [code style guide].
+When it comes to the changes in a pull request, content and prose must adhere to the [MDN Writing style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide) and example code must follow the [code style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
 
 When you are reviewing a pull request, you should:
 
