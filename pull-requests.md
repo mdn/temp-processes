@@ -46,7 +46,7 @@ If anyone has engaged in behavior that is potentially illegal or makes you or so
 When you're ready to open a pull request, follow these guidelines:
 
 - **Add the link to the issue you are closing:** Add 'Fixes' or 'Relates to' and the related issue in the description of the pull request.
-  More information about issues can be found [in our Community guidelines pages](https://developer.mozilla.org/en-US/docs/MDN/Community/Issues).
+  More information about linking to issues in pull requests can be found in [GitHub docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 - **Add a description of the changes:** Provide as much context and rationale for the pull request as possible.
 - **PRs should be short and focused to one issue:** If possible, group related set of changes into multiple, small PRs.
   If a PR becomes too large, the reviewer may close it and ask that you to submit pull requests for each logical set of changes that belong together.
