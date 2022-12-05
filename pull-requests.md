@@ -90,9 +90,9 @@ The MDN Web Docs team uses reviewers and assignees to track the status of pull r
 - **Reviewers** are people that assess the changes in pull request and provide feedback for the author.
 - **Assignees** are people responsible for making sure the pull request is not blocked.
   Not all pull requests have assignees, but if they do, they are responsible for making sure the pull request progresses.
-  An assignee helps the work reach a conclusion either by merging, closing or undertaking unblocking work themselves.
+  An assignee helps the work reach a conclusion either by merging, closing, or undertaking unblocking work themselves.
 
-When it comes to merging changes, the pull request reviewer or an assignee merges the PR.
+A pull request reviewer or assignee is responsible for merging the changes.
 
 ### If you are asked to review a PR
 
