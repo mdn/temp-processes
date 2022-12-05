@@ -43,8 +43,7 @@ If you're not sure where to start, reach out to us on [Discord]() and ask for fe
 
 When you're ready to open a pull request, follow these guidelines:
 
-- **PRs should be short and focused to one issue** or a related set of changes.
-  If a PR becomes too large, the reviewer may close it and ask that you submit pull requests for each logical set of changes that belong together.
+- **PRs should be short and focused to one issue:** If possible, group related set of changes into multiple, small PRs. If a PR becomes too large, the reviewer may close it and ask that you to submit pull requests for each logical set of changes that belong together.
 - **Add a description of what the pull request is doing**
 - **Add the link to the issue you are closing or working on** Add 'Fixes' or 'Relates to' and the related issue to the description of the pull request. See [github link here]()
 - **Accompany code example changes with content changes** to ensure updated examples are served correctly.
