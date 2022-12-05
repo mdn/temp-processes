@@ -1,6 +1,12 @@
 # Pull request submission and review guidelines
 
 This document describes how contributors make changes to MDN Web Docs and how the changes are reviewed and land on the site.
+
+We strongly recommend opening pull requests that close existing issues or that are part of a bigger project. You can find tasks to help with under 'Issues' in any of the [MDN repositories](https://github.com/orgs/mdn/repositories) (for example, [Issues](https://github.com/mdn/content/issues) in `mdn/content` repository) and our public [project boards](https://github.com/orgs/mdn/projects).
+
+Before embarking on any work in any of the MDN repositories, please make sure that you're not making changes that are already being made. You can do this by searching through the open 'Issues' and open 'Pull requests' in the repository you're interested in making changes.
+
+If you are looking to suggest a new feature or a new set of work, please submit a proposal through the [suggestion form]().
 Content changes to MDN Web Docs include:
 
 - **Day-to-day improvements:** for the documentation of APIs, CSS properties, platform updates and content additions.
@@ -12,7 +18,7 @@ Content changes to MDN Web Docs include:
 Regardless of how content changes are done, they are submitted as pull requests on GitHub.
 The content changes go through the following stages before they are published on MDN Web Docs:
 
-1. **Submission:** As a pull request author, you [submit changes as a pull request](#submitting-a-pull-request).
+1. **Submission:** As a pull request author, you [submit changes via opening a pull request](#opening-a-pull-request).
 2. **Review:** Your changes are reviewed by [MDN members and volunteers](#pull-request-review-process).
 3. **Publishing:** Updated content goes live within a day of merging via a site rebuild once every 24 hours.
 
@@ -20,29 +26,27 @@ The content changes go through the following stages before they are published on
 
 We want MDN Web Docs to be a welcoming, friendly community that we can all be proud of.
 All participants must follow our [Code of Conduct](https://github.com/mdn/content/blob/main/CODE_OF_CONDUCT.md) which means adhering to [Mozilla's Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
-Be polite and constructive when writing review comments, interacting with the PR author or other community members.
+Be polite and constructive when opening pull requests, writing review comments, interacting with the PR author or other community members.
 If anyone has engaged in behavior that is potentially illegal or makes you or someone else feel unsafe, unwelcome, or uncomfortable, you are encouraged to [report it](https://www.mozilla.org/en-US/about/governance/policies/participation/reporting/).
 
-## Submitting a pull request
+## Opening a pull request
 
-Before you open a pull request, there are a few things to do:
+### If you find something you want to work on
 
-- **Check if the change is already tracked in an issue.**
-  If you find an issue describing the change you want to make, add a comment to the issue to let others know you want to work on it.
-- **Create an issue** using the [content suggestion template](https://github.com/mdn/mdn/issues/new?labels=content+suggestion%2Cfeature+suggestion%2Cproposed&template=content-or-feature-suggestion.yml&title=A+short+title+that+begins+with+a+verb) if the changes you want to make are new additions to MDN Web Docs.
-- **Open a discussion** in [MDN GitHub discussions](https://github.com/orgs/mdn/discussions) if your PR will contain large changes.
-  This excludes typo or grammar fixes, formatting, or minor restructuring changes.
+Ideally you'll have found an issue or project task to work on before opening a pull request. Every pull request opened should be to close an existing issue. If you haven't check through issues on repos or public project boards to find something. If you have found a problem on MDN open an issue - more [information on issues can be found here](). **Issues need to be triaged before work can start.**
 
-If you're not sure where to start, it's always best to [open a discussion](https://github.com/orgs/mdn/discussions) and ask for feedback before starting on any work.
+Make sure the issue isn't assigned and no one has already opened a pull request for the task. You can do that by checking the issue and searching open pull requests
+
+If you're not sure where to start, reach out to us on [Discord]() and ask for feedback before starting on any work.
 
 ### Opening a pull request
 
 When you're ready to open a pull request, follow these guidelines:
 
-- **PRs should be short and focused to one issue** or a related set of changes.
-  If a PR becomes too large, the reviewer may close it and ask that you submit pull requests for each logical set of changes that belong together.
-- **Accompany demo changes with content changes** to ensure updated examples are served correctly.
-  If content changes also affect how examples are used, the related demos should be updated.
+- **PRs should be short and focused to one issue:** If possible, group related set of changes into multiple, small PRs. If a PR becomes too large, the reviewer may close it and ask that you to submit pull requests for each logical set of changes that belong together.
+- **Add a description of what the pull request is doing:** Provide as much context and reason for opening the pull request.
+- **Add the link to the issue you are closing or working on:** Add 'Fixes' or 'Relates to' and the related issue in the description of the pull request. See [github link here]()
+- **Accompany code example changes with content changes:** This is important to ensure that updated examples are served correctly. If content changes also affect how examples are used, the related code examples should be updated in associated repositories.
 - **Add 'depends on'** with a link to a dependency if there are PRs that must land first (e.g. linked examples in other repos).
 - **Add a reviewer** if you know who should review your PR already, such as a team member or a topic owner.
 - **Don't make grammar-only changes.**
@@ -68,13 +72,15 @@ When you're ready to open a pull request, follow these guidelines:
 ## Pull request review process
 
 We add reviewers automatically based on a `CODEOWNERS` file but, if there is a specific person you want to request review from, manually [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review).
-We also use auto-labeling of issues and pull requests.
-Maintainers will triage pull requests and add any additional labels if needed based on context.
+We also use auto-labeling on pull requests to help triage.
+Maintainers will triage pull requests and add any additional labels, such as `needs-info` or `on-hold`, if needed based on context.
 
 If you want to review a PR but are not listed as a reviewer, you may add yourself as one.
 It's polite to check with existing reviewers first by commenting on the pull request that you intend to start a review.
 
 When it comes to merging, the PR reviewer or an **assignee** merges the PR.
+
+A note about reviewers and assignees. Reviewers are those that review the pull request and give feedback. Assignees are those that are assigned to do work on the pull request, either to reach a conclusion (either by merging or closing) or to undertake further work.
 
 ### If you are assigned to review a PR
 
