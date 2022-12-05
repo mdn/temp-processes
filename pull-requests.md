@@ -50,7 +50,7 @@ When you're ready to open a pull request, follow these guidelines:
 - **Add a description of the changes:** Provide as much context and rationale for the pull request as possible.
 - **PRs should be short and focused to one issue:** If possible, group related set of changes into multiple, small PRs.
   If a PR becomes too large, the reviewer may close it and ask that you to submit pull requests for each logical set of changes that belong together.
-- **Don't make grammar-only changes.**
+- **Don't make grammar-only changes:**
   MDN Web Docs contains technical documentation; you should not suggest prose style changes except where grammar is incorrect.
 - **Accompany code example changes with content changes:** This is important to ensure that updated examples are served correctly.
   If you're making content changes that affect how examples are used, the related code examples should also be updated.
