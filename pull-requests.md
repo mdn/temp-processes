@@ -22,7 +22,7 @@ The content changes go through the following stages before they are published on
   The reason why we have this restriction is to avoid that you start on any kind of task that someone else might already be working on.
   Search issues and pull requests in the [MDN repository](https://github.com/orgs/mdn/repositories) you want to contribute to and confirm that the work you want to do is not already being done.
 
-- **If you are looking to contribute to the project**, you can find tasks under 'Issues' in any of the [ (for example, [`mdn/content` issues](https://github.com/mdn/content/issues)) and our [public GitHub project boards](https://github.com/orgs/mdn/projects).
+- **If you are looking to contribute to the project**, you can find tasks under 'Issues' in any of the [MDN GitHub repositories](https://github.com/orgs/mdn/repositories) (for example, [`mdn/content` issues](https://github.com/mdn/content/issues)) and our [public GitHub project boards](https://github.com/orgs/mdn/projects).
   Make sure the issue isn't assigned to someone and no one has already opened a pull request for the task.
   Issues labelled with `good first issue` are a good place to start.
 
