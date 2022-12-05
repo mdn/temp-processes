@@ -19,7 +19,9 @@ The content changes go through the following stages before they are published on
 ## Before you start
 
 Make sure that you're not making changes that someone else is already working on.
-You can find tasks under 'Issues' in any of the [MDN repositories](https://github.com/orgs/mdn/repositories) (for example, [`mdn/content` issues](https://github.com/mdn/content/issues)) and our [public GitHub project boards](https://github.com/orgs/mdn/projects).
+In the [MDN repository](https://github.com/orgs/mdn/repositories) you want to work, check out the 'Issues' and 'Pull requests' tabs to confirm that an issue or pull request does not already exist related to the work you want to do.
+
+If you are looking to contribute to the project, you can find tasks under 'Issues' in any of the [ (for example, [`mdn/content` issues](https://github.com/mdn/content/issues)) and our [public GitHub project boards](https://github.com/orgs/mdn/projects).
 Make sure the issue isn't assigned to someone and no one has already opened a pull request for the task.
 
 If you have found a problem on MDN, open an issue first.
