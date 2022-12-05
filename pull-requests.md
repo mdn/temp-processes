@@ -1,8 +1,12 @@
 # Pull request submission and review guidelines
 
 This document describes how contributors make changes to MDN Web Docs and how the changes are reviewed and land on the site.
-We like pull requests that close existing issues and are part of bigger project work. You can find tasks to help with on repo issues trackers and our public project boards. Please make sure before embarking on any work that you're not making changes that are already being made. Search issue trackers and open prs.
-If you are looking to suggest a new feature or a new set of work please submit a proposal through the [suggestion form]().
+
+We strongly recommend opening pull requests that close existing issues or that are part of a bigger project. You can find tasks to help with under 'Issues' in any of the [MDN repositories](https://github.com/orgs/mdn/repositories) (for example, [Issues](https://github.com/mdn/content/issues) in `mdn/content` repository) and our public [project boards](https://github.com/orgs/mdn/projects).
+
+Before embarking on any work in any of the MDN repositories, please make sure that you're not making changes that are already being made. You can do this by searching through the open 'Issues' and open 'Pull requests' in the repository you're interested in making changes.
+
+If you are looking to suggest a new feature or a new set of work, please submit a proposal through the [suggestion form]().
 Content changes to MDN Web Docs include:
 
 - **Day-to-day improvements:** for the documentation of APIs, CSS properties, platform updates and content additions.
