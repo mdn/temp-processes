@@ -73,7 +73,7 @@ When you're ready to open a pull request, follow these guidelines:
 
 We add reviewers automatically based on a `CODEOWNERS` file but, if there is a specific person you want to request review from, manually [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review).
 We also use auto-labeling on pull requests to help triage.
-Maintainers will triage pull requests and add any additional labels if needed based on context. These are usually as and when are needed like `needs-info` or `on-hold`.
+Maintainers will triage pull requests and add any additional labels, such as `needs-info` or `on-hold`, if needed based on context.
 
 If you want to review a PR but are not listed as a reviewer, you may add yourself as one.
 It's polite to check with existing reviewers first by commenting on the pull request that you intend to start a review.
