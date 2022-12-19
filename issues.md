@@ -1,22 +1,33 @@
-# Issue reporting guidelines
+# Guidelines for reporting, triaging, and working on issues
 
-## General guidelines
+As a contributor, you can report and work on an issue. Triaging is typically done by people assigned the role of maintainers and owners.
 
-An issue must be an actionable task or an issue used to track multiple tasks.
-It must be clear at a glance what needs to be done for an issue to be resolved.
+## General participation guidelines
 
-**Issue titles:**
+Always evaluate your contributions, while reporting an issue or participating in a conversation, to ensure that they are contributing to the overall progress and health of the project. Consider whether your issues and comments are on topic or if they are just adding noise.
 
-- The title of an issue has to convey succinctly what the task is.
+Dos:
 
-**Description:**
-An issue's description should list what needs to be done and the status of the task or sub-tasks.
-It should be clear to a reader who has no context on the issue what the current status of the task is and what is left outstanding.
-The scope and status of an issue can be conveyed via a checklist or using labels.
+- Use [discussions](https://github.com/mdn/mdn-community/discussions) in the MDN project on GitHub before filing an issue. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
+- If you have a simple question, you can ask using other mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) without filing an issue.
+- Read our [contribution guidelines](/en-US/docs/MDN/Community) and [writing guidelines](/en-US/docs/MDN/Writing_guidelines) first to try to solve the issue yourself.
 
-- It should not be necessary to scroll through comments or replies to find the status of the task or sub-tasks.
-- The status of the task (or sub-tasks) must be visible in the issue description or via labels.
-- Updates to the status of the task should be done by editing the issue description or task list instead of in a comment replying to an issue.
+Don'ts:
+
+- Complicate issues by trying to discuss multiple topics or by making off-topic comments.
+- Open lots of issues asking vague questions.
+- Ask questions without trying to solve the problem yourself first.
+
+## Issue reporting guidelines
+
+An issue must be a single actionable task or a collection of multiple, related actionable tasks.
+The issue description must clearly state the bug and the action required to resolve the issue.
+
+Follow these guidelines while reporting an issue:
+
+- **Issue titles:** The title of an issue must convey succinctly the required action.
+
+- **Description:** The description for an issue should list the task or tasks to be completed to resolve the issue. Use the description field to indicate the completion and outstanding status of the task or sub-tasks by using checklists. Updates to the status of a task should be done by editing the issue description or the task list instead of in a comment replying to an issue. One should not have to scroll through comments or replies to find the status of a task or sub-tasks.
 
 ### Discussions
 
@@ -51,22 +62,6 @@ We should therefore replace all instances of the `\{{ warning }}` macro with the
 - [ ] Deprecate `\{{ warning }}` macro
 - [ ] Notify localization team leads of the change.
 ```
-
-## Make progress, not noise
-
-Think carefully about the way you handle communication in the project — make sure it is useful, and that it doesn't make other contributors jobs harder. Submitting pull requests to fix issues is great, but are they truly useful, and easy to review? Filing issues and joining in other conversations is fine, but are your issues and comments on topic, or are they just adding noise?
-
-As a rule, do:
-
-- Use [GitHub discussion](https://github.com/mdn/mdn-community/discussions) before filing an issue. This helps to keep issues focused and productive.
-- Ask questions using other mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) if you are not sure whether something is useful or have a simple question.
-- Read our [contribution guidelines](/en-US/docs/MDN/Community) and [writing guidelines](/en-US/docs/MDN/Writing_guidelines) first to try to solve the issue yourself.
-
-Don't:
-
-- Complicate issues by trying to discuss multiple topics at once, or making off-topic comments.
-- Open lots of issues asking vague questions.
-- Ask questions without trying to solve the problem yourself first.
 
 ## Working on an issue
 
@@ -251,4 +246,3 @@ At the end of your triage session, have a look through the older existing triage
 - Check assigned issues that are still open to see if the assignee is making progress. If they have done nothing after a week of being assigned, ask them if they still have to work on the issue. If another week passes and they have still done nothing, unassign them and say that you are opening this up again for others to take.
 - If a PR has been issued to fix the issue but it has not been reviewed for a week, give the reviewer a gentle ping to ask if they can get to it.
 - If a PR is waiting on review comments to be addressed after a week, then ask the submitter if they can respond to their review. If another week goes by, either fix the review comments yourself if you have time, or close the PR if not.
-
