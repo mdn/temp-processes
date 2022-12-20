@@ -78,25 +78,34 @@ These are the general steps for working on an issue:
 
 2. After finding an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it, and assign the issue to yourself.
 
-   Most issues need some investigation before work can start. If you need to ask questions, ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
+3. Most issues need some investigation before work can start.
 
-3. Fork and branch the repository. Do your work and open a [pull request](/en-US/docs/MDN/Community/Pull_requests) in the repository.
+   - Scope out the work that needs to be done. If you need to ask questions, ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
+   - If the issue is well-described, and the work is pretty obvious, go ahead and do it.
+   - If the issue is not well-described, and/or you are not sure what is needed, feel free to @mention the poster and ask for more information.
+   - If you are not still sure who to ask, ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
+
+4. Fork and branch the repository. Do your work and open a [pull request](/en-US/docs/MDN/Community/Pull_requests) in the repository. Comment in the issue and ask for a review of your pull request.
+
+   If you no longer have the time to work on the assigned issue, let the team know in a comment so that the issue can be assigned to someone else.
+
+5. After your pull request has been reviewed and merged, you can mark the linked issue as closed. If you opened the pull request with `Fixes #<issue>` verbiage, the issue will be closed automatically when the pull request is merged.
 
 ### Troubleshooting problems
 
 If you run into problems — whether it's a problem with site infrastructure or an error in documentation content — you can try to fix it yourself, report the problem (file an issue), or ask in Discord.
 
-The best thing you can possibly do is fix problems you spot yourself — this is done by updating the site source:
+You can fix the problem yourself by updating the appropriate source:
 
 - The MDN content itself (in English) is found in the [content](https://github.com/mdn/content) repository.
-- The MDN content, translated in other locales, is found in the [translated-content](https://github.com/mdn/translated-content) repo.
-- The MDN platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repo.
+- The MDN content translated in other locales is found in the [translated-content](https://github.com/mdn/translated-content) repository.
+- The MDN platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repository.
 
 Each repository includes useful information to guide you on how to contribute.
 
-However, maybe you don't know the answer or are in the middle of a deadline on your own project, and need to jot down the problem so someone can look at it later.
+However, if you're unable to troubleshoot the problem or are in the middle of a deadline on your own project, note the problem providing sufficient information so that someone can look at it later.
 
-The way to report a documentation problem by filing an [documentation issue](https://github.com/mdn/content/issues), [localization issue](https://github.com/mdn/translated-content/issues) or [platform issue](https://github.com/mdn/yari/issues), depending on what the problem you've discovered relates to.
+Depending on the problem you've discovered, report it by filing a [documentation issue](https://github.com/mdn/content/issues), a [localization issue](https://github.com/mdn/translated-content/issues), or a [platform issue](https://github.com/mdn/yari/issues).
 
 ## When choosing a GitHub issue to work on
 
@@ -112,20 +121,6 @@ The way to report a documentation problem by filing an [documentation issue](htt
      2. If it was less than one week ago, then have some patience, and give them a chance to work on it.
 
 2. If the issue has been marked as complete but needing a review, and you want to review it, @mention them in the comments and say you'll review it.
-
-## When you've been assigned to an issue
-
-1. Scope out the remainder of the work that needs to be done.
-
-   - If the issue is well-described, and the work is pretty obvious, go ahead and do it.
-   - If the issue is not well-described, and/or you are not sure what is needed, feel free to @mention the poster and ask for more information.
-   - If you are not still sure who to ask, ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
-
-2. Once you think you've fixed an issue, ask for a review in the comments.
-3. Once an issue has been successfully reviewed and comments answered, you can mark it as closed.
-4. If you no longer have time to work on an issue, let us know in a comment so we can assign it someone else.
-
-This document looks at the process for triaging content bugs and getting them ready for contributors to effectively work on.
 
 ## Reporting and working on bugs
 
