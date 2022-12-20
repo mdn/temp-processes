@@ -4,7 +4,7 @@ As a contributor, you can report and work on an issue. Triaging is typically don
 
 ## General participation guidelines
 
-Always evaluate your contributions, while reporting an issue or participating in a conversation, to ensure that they are contributing to the overall progress and health of the project. Consider whether your issues and comments are on topic or if they are just adding noise.
+While reporting an issue or participating in a conversation, always ensure that your inputs are contributing to the overall progress of the project. Consider whether your issues and comments are on topic or if they are just adding noise.
 
 Dos:
 
@@ -20,72 +20,79 @@ Don'ts:
 
 ## Issue reporting guidelines
 
-An issue must be a single actionable task or a collection of multiple, related actionable tasks.
-The issue description must clearly state the bug and the action required to resolve the issue.
+[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track bugs. An issue must be a single actionable task or a collection of multiple, related actionable tasks and must have a clear actionable outcome.
 
-Follow these guidelines while reporting an issue:
+### Before filing an issue
 
-- **Issue titles:** The title of an issue must convey succinctly the required action.
+If you've found a bug with either the content on MDN or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure someone has not already reported the issue.
 
-- **Description:** The description for an issue should list the task or tasks to be completed to resolve the issue. Use the description field to indicate the completion and outstanding status of the task or sub-tasks by using checklists. Updates to the status of a task should be done by editing the issue description or the task list instead of in a comment replying to an issue. One should not have to scroll through comments or replies to find the status of a task or sub-tasks.
+### While filing an issue
 
-### Discussions
+- To open an issue, use the appropriate template available in the repository.
 
-- Comments in an issue should be limited to details or context that helps resolve the issue.
-  If a discussion needs to take place to clarify an issue, or if a discussion begins, it should be moved to a GitHub discussion.
-- If an issue has no clear consensus on how to resolve it, it should be moved to a discussion.
-- If the requirements for completing the task expand while it's being resolved, or if the work is unclear, a discussion must be used to flesh out details for clarity.
+- Ensure that the issue description clearly states the bug and the action required to resolve the issue. Follow these guidelines while reporting a bug:
 
-[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track all bugs and work that has a clear actionable outcome. If you have found a bug with either our content or the platform, please search current open issues against the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure someone has not already reported the issue. If the issue is new, please file an issue using the relevant template available in the repository.
+  - **Issue title:** Must convey succinctly the required action.
 
-> **Note:** If an issue has a triage label, we haven't reviewed it yet, and you shouldn't begin work on it.
+  - **Issue description:** Must list the task or sub-tasks to be completed to resolve the issue.
 
-If the issue you are filing is not to report a bug, please ensure that it lists actionable tasks or a clear outcome. For example:
+    - Use the description field to indicate the completion and outstanding status of the task or sub-tasks by using checklists. Updates to the status of a task should be done by editing the issue description or the task list instead of in a comment. One should not have to scroll through comments or replies to find the status of a task or sub-tasks.
+    - Comments in an issue should be limited to details or context that help resolve the issue. If you find yourself in one of the following situations, move the conversation to [MDN's GitHub discussions](https://github.com/mdn/mdn-community/discussions):
+      - A discussion needs to take place to clarify an issue
+      - A discussion begins after opening the issue
+      - The issue has no clear consensus on its resolution
+      - The requirements for completing the task expand while it's being resolved or the work is unclear
 
-```markdown
-## Remove \{{ warning }} macro from documents
+- If the issue you're filing is not to report a bug, you can create an issue tracker. Ensure that you list the actionable tasks or a clear outcome in the issue tracker. Also explain the context or reason for performing the tasks. For example:
 
-We should no longer be using the `\{{ warning }}` macro in our documentation.
+   ```markdown
+   ## Remove \{{ warning }} macro from documents
 
-### Task description
+   We should no longer be using the `\{{ warning }}` macro in our documentation because it has been deprecated.
 
-We should therefore replace all instances of the `\{{ warning }}` macro with the following:
+   ### Task description
 
-> **Warning:** Main subject line
->
-> Details of the warning.
-> It can have multiple paragraphs.
+   We should replace all instances of the `\{{ warning }}` macro with the following:
 
-### Actionable outcome
+   > **Warning:** Main subject line
+   >
+   > Details of the warning.
+   > It can have multiple paragraphs.
 
-- [ ] There are no more instances of the `\{{ warning }}` macro in the `mdn/content` repository.
-- [ ] Deprecate `\{{ warning }}` macro
-- [ ] Notify localization team leads of the change.
-```
+   ### Actionable outcome
+
+   - [ ] There are no more instances of the `\{{ warning }}` macro in the `mdn/content` repository.
+   - [ ] Deprecate `\{{ warning }}` macro
+   - [ ] Notify localization team leads of the change.
+   ```
 
 ## Working on an issue
 
-All repositories have an issue tracker, where you can find tasks to help contribute
+Remember that if you take on an issue, the expectation is for work to be completed in a timely manner. If you can no longer complete the required task, leave a comment and unassign yourself from the issue.
 
-Most repositories have a `help-wanted` label or `good-first-issue` label. Some do not, but this is not a pre-requisite and you are welcome to browse and pick something that is suitable for your skill set.
+These are the general steps for working on an issue:
 
-Once you've found an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it and assign the issue to yourself.
+1. If you're looking to contribute, search for issues with `help wanted` or `good first issue` label. Most repositories have issues with these labels; some do not, but this is not a pre-requisite. You are welcome to browse and pick an issue that is suitable for your skill set.
 
-Most issues need some investigation before work can start, if you need to ask questions ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
+   > **Note:** An issue with the `needs triage` label indicates that the team has not reviewed the issue yet, and you shouldn't begin work on it.
 
-If you take on an issue we expect work to happen in a timely manner. If you can no longer take on the task, leave a comment and unassign yourself.
+2. After finding an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it, and assign the issue to yourself.
 
-Fork and branch the repository, do your work and open a [pull request](/en-US/docs/MDN/Community/Pull_requests).
+   Most issues need some investigation before work can start. If you need to ask questions, ask for help in the [MDN Web Docs chat room](https://chat.mozilla.org/#/room/#mdn:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
 
-Now and then, you may run into problems while using MDN. Whether it's a problem with site infrastructure or an error in documentation content, you can either try to fix it yourself or report the problem. While the former is preferred, the latter is sometimes the best you can manage, and that's okay too.
+3. Fork and branch the repository. Do your work and open a [pull request](/en-US/docs/MDN/Community/Pull_requests) in the repository.
+
+### Troubleshooting problems
+
+If you run into problems — whether it's a problem with site infrastructure or an error in documentation content — you can try to fix it yourself, report the problem (file an issue), or ask in Discord.
 
 The best thing you can possibly do is fix problems you spot yourself — this is done by updating the site source:
 
-- The MDN content itself (in English) is found in the [content](https://github.com/mdn/content) repo.
+- The MDN content itself (in English) is found in the [content](https://github.com/mdn/content) repository.
 - The MDN content, translated in other locales, is found in the [translated-content](https://github.com/mdn/translated-content) repo.
 - The MDN platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repo.
 
-Each repo includes useful information to guide you on how to contribute.
+Each repository includes useful information to guide you on how to contribute.
 
 However, maybe you don't know the answer or are in the middle of a deadline on your own project, and need to jot down the problem so someone can look at it later.
 
@@ -189,7 +196,7 @@ For each bug, run through the following checklist to make sure the issue contain
 Does the issue contain:
 
 - The MDN URL where the problem has been found.
-- The URL of any example page or repo related to the bug, if appropriate.
+- The URL of any example page or repository related to the bug, if appropriate.
 - The specific heading on the MDN page where the problem can be found (if needed to find it).
 - A clear description of what the problem is.
 
