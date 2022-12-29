@@ -1,16 +1,18 @@
-# Guidelines for reporting, triaging, and working on issues
+# Reporting, triaging, and working on issues
 
-As a contributor, you can report and work on an issue. Triaging is typically done by people assigned the role of maintainers and owners.
+As a contributor, you can report and work on an issue.
 
-## General participation guidelines
+Triaging is typically done by people assigned the role of maintainer and owner.
 
-While reporting an issue or participating in a conversation, always ensure that your inputs are contributing to the overall progress of the project. Consider whether your issues and comments are on topic or if they are just adding noise.
+## Guidelines for participation
+
+While reporting an issue or participating in a conversation in an issue, always ensure that your inputs are contributing to the overall progress of the project. Consider whether the issues you open and your comments are on topic or if they are just adding noise.
 
 Dos:
 
-- Use [discussions](https://github.com/mdn/mdn-community/discussions) in the MDN project on GitHub before filing an issue. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
-- If you have a simple question, you can ask using other mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) without filing an issue.
-- Read our [contribution guidelines](/en-US/docs/MDN/Community) and [writing guidelines](/en-US/docs/MDN/Writing_guidelines) first to try to solve the issue yourself.
+- Before filing an issue, consider if you need to start a [discussion](https://github.com/mdn/mdn-community/discussions) in the MDN project on GitHub. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
+- Before filing an issue, read our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md) to try to fix the problem yourself.
+- If you have a question, you can ask using mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) without filing an issue.
 
 Don'ts:
 
@@ -18,55 +20,55 @@ Don'ts:
 - Open lots of issues asking vague questions.
 - Ask questions without trying to solve the problem yourself first.
 
-## Issue reporting guidelines
+## Guidelines for reporting an issue
 
 [Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track bugs. An issue must be a single actionable task or a collection of multiple, related actionable tasks and must have a clear actionable outcome.
 
 ### Before filing an issue
 
-If you've found a bug with either the content on MDN or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure someone has not already reported the issue.
+If you've found a bug with either the content on MDN or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure that someone has not already reported the issue.
 
-### While filing an issue
+### Reporting a bug
 
 - To open an issue, use the appropriate template available in the repository.
 
-- Ensure that the issue description clearly states the bug and the action required to resolve the issue. Follow these guidelines while reporting a bug:
+- Provide sufficient information while reporting the issue:
 
-  - **Issue title:** Must convey succinctly the required action.
+  - **Issue title** must convey succinctly the _required action_.
 
-  - **Issue description:** Must list the task or sub-tasks to be completed to resolve the issue.
+  - **Issue description** must clearly describe the bug and the action required to resolve the issue. It must also list the task or sub-tasks to be completed to resolve the issue. Some other guidelines include:
+    - Use the description field to indicate the status of the task or sub-tasks by using checklists.
+    - Updates to the status of a task should be conveyed by editing the task list in the issue description instead of adding a new comment. One should not have to scroll through comments or replies to find the status of a task or sub-task.
+    - Comments in an issue should be limited to details or context that help resolve the issue. If you find yourself in one of the following situations, move the conversation to [MDN's discussion on GitHub](https://github.com/mdn/mdn-community/discussions):
+      - A discussion needs to take place to clarify an issue.
+      - A discussion begins after opening the issue.
+      - The issue has no clear consensus on its resolution.
+      - The requirements for completing the task expand while it's being resolved or the work is unclear.
 
-    - Use the description field to indicate the completion and outstanding status of the task or sub-tasks by using checklists. Updates to the status of a task should be done by editing the issue description or the task list instead of in a comment. One should not have to scroll through comments or replies to find the status of a task or sub-tasks.
-    - Comments in an issue should be limited to details or context that help resolve the issue. If you find yourself in one of the following situations, move the conversation to [MDN's GitHub discussions](https://github.com/mdn/mdn-community/discussions):
-      - A discussion needs to take place to clarify an issue
-      - A discussion begins after opening the issue
-      - The issue has no clear consensus on its resolution
-      - The requirements for completing the task expand while it's being resolved or the work is unclear
+### Creating a task tracker
 
-- If the issue you're filing is not to report a bug, you can create an issue tracker. Ensure that you list the actionable tasks or a clear outcome in the issue tracker. Also explain the context or reason for performing the tasks. For example:
+If the issue you're opening is not to report a bug but to perform a series of tasks, you can create an issue tracker.
+Explain the context or reason for performing the tasks in the description.
+Ensure that you list all the actionable tasks as a checklist.
+
+For example:
 
    ```markdown
-   ## Remove \{{ warning }} macro from documents
+   // Issue title
+   Ensure sections follow the order defined in the CSS property template
 
-   We should no longer be using the `\{{ warning }}` macro in our documentation because it has been deprecated.
+   // Issue description
+   The CSS property page template is defined [here](/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_property_page_template).
+   This issue tracker will be used to compare the documented CSS properties with the template and track changes to the property pages for compliance.
 
-   ### Task description
+   ### List of pages checked
 
-   We should replace all instances of the `\{{ warning }}` macro with the following:
-
-   > **Warning:** Main subject line
-   >
-   > Details of the warning.
-   > It can have multiple paragraphs.
-
-   ### Actionable outcome
-
-   - [ ] There are no more instances of the `\{{ warning }}` macro in the `mdn/content` repository.
-   - [ ] Deprecate `\{{ warning }}` macro
-   - [ ] Notify localization team leads of the change.
+   - [x] [accent-color](/en-US/docs/Web/CSS/accent-color) - checked, okay
+   - [ ] [backdrop-filter](/en-US/docs/Web/CSS/backdrop-filter)
+   - [ ] [letter-spacing](/en-US/docs/Web/CSS/letter-spacing) - open pull request to move Accessibility concerns and Internationalization concerns before Specifications.
    ```
 
-## Working on an issue
+## Guidelines for working on an issue
 
 Remember that if you take on an issue, the expectation is for work to be completed in a timely manner. If you can no longer complete the required task, leave a comment and unassign yourself from the issue.
 
@@ -91,6 +93,21 @@ These are the general steps for working on an issue:
 
 5. After your pull request has been reviewed and merged, you can mark the linked issue as closed. If you opened the pull request with `Fixes #<issue>` verbiage, the issue will be closed automatically when the pull request is merged.
 
+## Choosing a GitHub issue to work on
+
+1. Write a comment in the issue saying that you would like to take it on, and we'll assign you to it.
+
+   - If someone else is already assigned to the issue:
+
+     1. If this was more than one week ago, and there has not been much activity, @mention them and ask them if you can take it over, or otherwise help get it to completion.
+
+        - If they agree for you to take it, we'll assign you to it and remove them.
+        - If they agree for you to take it and some work has been done already, or the agreement is to help them out with it, we'll assign you to it alongside them.
+
+     2. If it was less than one week ago, then have some patience, and give them a chance to work on it.
+
+2. If the issue has been marked as complete but needing a review, and you want to review it, @mention them in the comments and say you'll review it.
+
 ### Troubleshooting problems
 
 If you run into problems — whether it's a problem with site infrastructure or an error in documentation content — you can try to fix it yourself, report the problem (file an issue), or ask in Discord.
@@ -107,28 +124,13 @@ However, if you're unable to troubleshoot the problem or are in the middle of a 
 
 Depending on the problem you've discovered, report it by filing a [documentation issue](https://github.com/mdn/content/issues), a [localization issue](https://github.com/mdn/translated-content/issues), or a [platform issue](https://github.com/mdn/yari/issues).
 
-## When choosing a GitHub issue to work on
-
-1. Write a comment in the issue saying that you would like to take it on, and we'll assign you to it.
-
-   - If someone else is already assigned to the issue:
-
-     1. If this was more than one week ago, and there has not been much activity, @mention them and ask them if you can take it over, or otherwise help get it to completion.
-
-        - If they agree for you to take it, we'll assign you to it and remove them.
-        - If they agree for you to take it and some work has been done already, or the agreement is to help them out with it, we'll assign you to it alongside them.
-
-     2. If it was less than one week ago, then have some patience, and give them a chance to work on it.
-
-2. If the issue has been marked as complete but needing a review, and you want to review it, @mention them in the comments and say you'll review it.
-
 ## Reporting and working on bugs
 
 Anyone can report a content bug by writing an issue at <https://github.com/mdn/content/issues/new> using the "Content bug" issue template, or by using the "Report a problem with this content on GitHub" link at the bottom of each MDN page.
 
 Once reported, content bugs are listed at <https://github.com/mdn/content/issues>, and are designed to be done by individuals with minimal process requirements. Anyone is welcome to work on a content bug, using the process outlined at [Fixing MDN content bugs](/en-US/docs/MDN/Community/Issues).
 
-## Overall triage process
+## Triaging process
 
 At a high level, the process for triage looks like so:
 
