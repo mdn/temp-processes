@@ -144,7 +144,7 @@ The overall process for triaging includes some [general](#general_triaging_tasks
 - Apart from triaging incoming issues every week, review the list of old bugs to see if there are any that are stalled, need closing, or are no longer relevant.
   - Check assigned issues that are still open to see if the assignee is making progress. If there is no progress after a week of being assigned, ask them if they still have time to work on the issue. If another week passes by without any progress, unassign them and leave a comment indicating that you're making the issue available for other interested contributors.
   - If a pull request has been opened to fix the issue but has not been reviewed for a week, give the reviewer a gentle ping to ask if they can get to it.
-  - If a pull request to fix the issue is waiting on review comments to be addressed after a week, then ask the submitter if they can respond to their review. If another week goes by, either fix the review comments yourself if you have time, or close the pull request and unassign the related issue.
+  - If a pull request to fix the issue is waiting on review comments to be addressed after a week, then ask the author if they can respond to their review. If another week goes by, either fix the review comments yourself if you have time, or close the pull request and unassign the related issue.
 
 ### Issue-specific triaging tasks
 
@@ -159,7 +159,7 @@ Review each issue against the following checklist to ensure that the issue conta
 - URL of an example page or repository related to the bug, if appropriate.
 - A clear description of what the problem is.
 
-If any of the above information is not present, then you should ask the submitter of the issue to provide these details and resume triaging the issue only after those details have been provided.
+If any of the above information is not present, then you should ask the author of the issue to provide these details and resume triaging the issue only after those details have been provided.
 
 #### Set a priority label
 
