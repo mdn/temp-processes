@@ -88,7 +88,7 @@ For example:
 
 ## Guidelines for working on an issue
 
-Remember that if you take on an issue, the expectation is for the work to be completed in a timely manner. If you can no longer complete the required task, leave a comment and unassign yourself from the issue.
+Remember that if you take on an issue, the expectation is for the work to be completed in a timely manner. If you're not able to make any progress for a week after being assigned or can no longer complete the required task, leave a comment and unassign yourself from the issue.
 
 These are the general steps for working on an issue:
 
@@ -145,25 +145,6 @@ The overall process for triaging includes some [general](#general_triaging_tasks
   - Check assigned issues that are still open to see if the assignee is making progress. If there is no progress after a week of being assigned, ask them if they still have time to work on the issue. If another week passes by without any progress, unassign them and leave a comment indicating that you're making the issue available for other interested contributors.
   - If a pull request has been opened to fix the issue but has not been reviewed for a week, give the reviewer a gentle ping to ask if they can get to it.
   - If a pull request to fix the issue is waiting on review comments to be addressed after a week, then ask the submitter if they can respond to their review. If another week goes by, either fix the review comments yourself if you have time, or close the pull request and unassign the related issue.
-
-### Decide on triagers
-
-We need an assigned triager to regularly triage bugs coming in on each MDN content area. We currently have the following triagers assigned:
-
-- Accessibility — Eric Bailey?
-- CSS — Rachel Andrew
-- DevTools — Hamish Willee
-- HTML — Rachel Andrew
-- HTTP — Florian Scholz
-- JS — Florian Scholz
-- Learn — Chris Mills
-- Learn:CSS — Rachel Andrew
-- Learn:Express / Learn:Django — Hamish Willee
-- Media — Ruth John
-- Other — Ruth John
-- SVG — André Jaenisch
-- WebAPI — Ruth John
-- WebExt — Caitlin/WebExt team
 
 ### Issue-specific triaging tasks
 
