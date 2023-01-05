@@ -32,11 +32,11 @@ Avoid doing the following:
 
 ## Guidelines for reporting an issue
 
-[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track bugs. An issue must be a single actionable task or a collection of multiple, related actionable tasks and must have a clear actionable outcome.
+[Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) are used to track bugs. An issue must be a single actionable task or a collection of related actionable tasks and must have a clear outcome.
 
 ### Before filing an issue
 
-If you've found a bug with either the content on MDN Web Docs or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure that someone has not already reported the issue.
+If you think you've found a bug with the content on MDN Web Docs or with the look and feel of the website, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) and make sure that nobody else reported the issue.
 
 ### Reporting an issue
 
@@ -50,7 +50,7 @@ If you've found a bug with either the content on MDN Web Docs or the platform, s
 
   - **Issue description** must clearly describe the bug and the action required to resolve the issue. It must also list the task or sub-tasks to be completed to resolve the issue. Some other guidelines include:
     - Use the description field to indicate the status of the task or sub-tasks by using checklists.
-    - Updates to the status of a task should be conveyed by editing the task list in the issue description instead of adding a new comment. One should not have to scroll through comments or replies to find the status of a task or sub-task.
+    - Update the status of a task in the issue description instead of commenting on the issue. Use [task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists) in the description if an issue has multiple parts. This helps others who may otherwise need to scroll through comments on the issue to determine the status of various tasks.
     - Comments in an issue should be limited to details or context that help resolve the issue.
 
 - If the information you provide in the issue is incomplete, then you might be contacted later during the [issue triaging process](#review_issue_to_determine_completeness_of_information).
@@ -63,9 +63,9 @@ If you've found a bug with either the content on MDN Web Docs or the platform, s
 
 - You can open an issue and [fix it yourself](#fixing_issues_yourself).
 
-### Creating an issue task tracker
+### Creating a task list issue
 
-If the issue you're opening is not to report a bug but to perform a series of tasks, you can create the issue as a tracker.
+If the issue you're opening is not to report a bug but to perform a series of tasks, you can create the issue as a [task list](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
 Explain the context or reason for performing the tasks in the description.
 Ensure that you list all the actionable tasks as a checklist.
 
@@ -113,15 +113,15 @@ These are the general steps for working on an issue:
 
 ### Fixing issues yourself
 
-If you spot a bug — whether it's a problem with site infrastructure or an error in documentation — you can try to fix it yourself.
+If you spot a bug — whether it's a problem with the website's look and feel or an error in documentation — you can try to fix it yourself. Learn how you can contribute by going through our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md).
 
-[Report the problem](#guidelines_for_reporting_an_issue) as described earlier.
+In general, begin by [opening the issue](#guidelines_for_reporting_an_issue). Add a comment about your intent to work on the issue.
+After the issue is triaged, assign yourself to the issue.
+Using the [guidelines on working on an issue](#Guidelines_for_working_on_an_issue), try to fix the problem by updating the appropriate source, such as:
 
-You can fix the problem yourself by updating the appropriate source:
-
-- The MDN Web Docs content (in English) is found in the [content](https://github.com/mdn/content) repository.
-- The MDN Web Docs content translated in other locales is found in the [translated-content](https://github.com/mdn/translated-content) repository.
-- The MDN Web Docs platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repository.
+- The MDN Web Docs content (in English) in the [content](https://github.com/mdn/content) repository
+- The MDN Web Docs translated content in the [translated-content](https://github.com/mdn/translated-content) repository
+- The MDN Web Docs look and feel in the [yari](https://github.com/mdn/yari) repository
 
 Each repository includes useful information to guide you on how to contribute.
 
