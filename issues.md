@@ -20,7 +20,7 @@ While reporting an issue or participating in a conversation in an issue, always 
 
 Do the following:
 
-- Before filing an issue, consider if you need to start a [discussion](https://github.com/mdn/mdn-community/discussions) in the MDN project on GitHub. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
+- Before filing an issue, consider if you need to start a [discussion](https://github.com/mdn/mdn-community/discussions) in the MDN Web Docs project on GitHub. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
 - Before filing an issue, read our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md) to try to fix the problem yourself.
 - If you have a question, you can ask using mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) without filing an issue.
 
@@ -36,7 +36,7 @@ Avoid doing the following:
 
 ### Before filing an issue
 
-If you've found a bug with either the content on MDN or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure that someone has not already reported the issue.
+If you've found a bug with either the content on MDN Web Docs or the platform, search the current open issues in the [relevant repository](/en-US/docs/MDN/Community/Contributing/Our_repositories) to ensure that someone has not already reported the issue.
 
 ### Reporting an issue
 
@@ -94,7 +94,7 @@ These are the general steps for working on an issue:
 
 1. **Find an issue:** If you're looking to contribute, search for issues with `help wanted` or `good first issue` label. Most repositories have issues with these labels. You are welcome to browse and pick an issue that is suitable for your skill set.
 
-   > **Note:** An issue with the `needs triage` label indicates that the MDN core team has not reviewed the issue yet, and you shouldn't begin work on it.
+   > **Note:** An issue with the `needs triage` label indicates that the MDN Web Docs core team has not reviewed the issue yet, and you shouldn't begin work on it.
 
 2. **Assign yourself to the issue:** After finding an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it, and assign the issue to yourself.
 
@@ -119,15 +119,15 @@ If you spot a bug — whether it's a problem with site infrastructure or an erro
 
 You can fix the problem yourself by updating the appropriate source:
 
-- The MDN content (in English) is found in the [content](https://github.com/mdn/content) repository.
-- The MDN content translated in other locales is found in the [translated-content](https://github.com/mdn/translated-content) repository.
-- The MDN platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repository.
+- The MDN Web Docs content (in English) is found in the [content](https://github.com/mdn/content) repository.
+- The MDN Web Docs content translated in other locales is found in the [translated-content](https://github.com/mdn/translated-content) repository.
+- The MDN Web Docs platform code, which renders the content as MDN, is found in the [yari](https://github.com/mdn/yari) repository.
 
 Each repository includes useful information to guide you on how to contribute.
 
 ## Guidelines for triaging issues
 
-If you are a maintainer or an owner in the MDN GitHub organization, you are responsible for triaging issues in one or more MDN repository.
+If you are a maintainer or an owner in the MDN Web Docs GitHub organization, you are responsible for triaging issues in one or more MDN Web Docs repository.
 
 The overall process for triaging includes some [general](#general_triaging_tasks) and some [issue-specific tasks](#issue_specific_triaging_tasks).
 
@@ -155,7 +155,7 @@ These are the guidelines to follow while triaging each issue.
 Review each issue against the following checklist to ensure that the issue contains the described information for someone to start working on the bug:
 
 - MDN URL where the problem has been found.
-- The specific heading or section on the MDN page where the problem can be found.
+- The specific heading or section on the MDN Web Docs page where the problem can be found.
 - URL of an example page or repository related to the bug, if appropriate.
 - A clear description of what the problem is.
 
@@ -174,7 +174,7 @@ For each bug, set a priority label based on the severity of the issue to help pe
 - Minor issue — This is a type of improvement issue that can make the existing content better but does not affect learning or only has a minor effect on learning. Examples include typos, bad grammar, a broken link, a small amount of out-of-date information or badly-written prose, or a code snippet that doesn't work.
   - Labels: `p3` (no visibility when the issue will be addressed)
 
-In general, critical issues should be fixed immediately and are most likely handled by MDN staff and peers.
+In general, critical issues should be fixed immediately and are most likely handled by MDN Web Docs staff and peers.
 
 #### Add helpful information
 
