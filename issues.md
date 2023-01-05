@@ -21,7 +21,7 @@ While reporting an issue or participating in a conversation in an issue, always 
 Do the following:
 
 - Before filing an issue, consider if you need to start a [discussion](https://github.com/mdn/mdn-community/discussions) in the MDN Web Docs project on GitHub. Use discussions to gain different viewpoints and to converge on an agreed upon course of action. This helps to keep issues focused and productive.
-- Before filing an issue, read our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md) to try to fix the problem yourself.
+- After filing an issue, try to fix the problem yourself. Read our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md) to learn more.
 - If you have a question, you can ask using mechanisms like [chat rooms](https://chat.mozilla.org/#/room/#mdn:mozilla.org) or [forums](https://discourse.mozilla.org/c/mdn/236) without filing an issue.
 
 Avoid doing the following:
@@ -40,7 +40,7 @@ If you think you've found a bug with the content on MDN Web Docs or with the loo
 
 ### Reporting an issue
 
-- Depending on the problem you've discovered, report it by filing a [documentation issue](https://github.com/mdn/content/issues), a [localization issue](https://github.com/mdn/translated-content/issues), or a [platform issue](https://github.com/mdn/yari/issues).
+- Depending on the problem you've discovered, report it by filing a [documentation issue](https://github.com/mdn/content/issues), a [translation issue](https://github.com/mdn/translated-content/issues), or a [website look and feel issue](https://github.com/mdn/yari/issues).
 
 - To open an issue, use the appropriate template available in the repository. For example, to report a content bug, use the the [Content issue](<https://github.com/mdn/content/issues/new?assignees=&labels=needs+triage&template=content-bug.yml>) template in the `mdn/content` repository.
 
@@ -92,11 +92,11 @@ Remember that if you take on an issue, the expectation is for the work to be com
 
 These are the general steps for working on an issue:
 
-1. **Find an issue:** If you're looking to contribute, search for issues with `help wanted` or `good first issue` label. Most repositories have issues with these labels. You are welcome to browse and pick an issue that is suitable for your skill set.
+1. **Find an issue:** If you're looking to contribute, search for issues with `help wanted` or `good first issue` label. Most repositories have issues with these labels. You are welcome to browse and pick an issue that is suitable for your skill set. Another useful place to look for issues to work on is the [MDN Contributors Task Board](https://github.com/orgs/mdn/projects/25). This project view lists open issues from multiple repositories. You can filter the list based on the topics (`Labels` column) you're interested in. See the description of some of the [labels](#Set_other_labels) that get applied during the issue triage process.
 
    > **Note:** An issue with the `needs triage` label indicates that the MDN Web Docs core team has not reviewed the issue yet, and you shouldn't begin work on it.
 
-2. **Assign yourself to the issue:** After finding an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it, and assign the issue to yourself.
+2. **Assign the issue to yourself:** After finding an issue you'd like to work on, make sure no one else is assigned to the issue. Add a comment saying you would like to work on it, and [assign the issue to yourself](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users#assigning-an-individual-issue-or-pull-request).
 
 3. **Do the research:** Most issues need some investigation before work can start.
 
@@ -116,7 +116,7 @@ These are the general steps for working on an issue:
 If you spot a bug — whether it's a problem with the website's look and feel or an error in documentation — you can try to fix it yourself. Learn how you can contribute by going through our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md).
 
 In general, begin by [opening the issue](#guidelines_for_reporting_an_issue). Add a comment about your intent to work on the issue.
-After the issue is triaged, assign yourself to the issue.
+After the issue is triaged, assign the issue to yourself.
 Using the [guidelines on working on an issue](#Guidelines_for_working_on_an_issue), try to fix the problem by updating the appropriate source, such as:
 
 - The MDN Web Docs content (in English) in the [content](https://github.com/mdn/content) repository
@@ -150,7 +150,17 @@ The overall process for triaging includes some [general](#general_triaging_tasks
 
 These are the guidelines to follow while triaging each issue.
 
-#### Review the issue to determine the completeness of information
+#### Review if the issue is valid
+
+These are some of the things to keep in mind while reviewing the validity of an issue:
+
+- Check if the issue raised is valid and if the fix will improve the content for the readers and the website.
+- Evaluate if the impact of the fix will be small or site-wide.
+- Evaluate if the fix for the issue will need a discussion first, in which case, point the author to open a [discussion](https://github.com/mdn/mdn-community/discussions) instead.
+- Check if the issue is inline with our [writing guidelines](/en-US/docs/MDN/Writing_guidelines/Writing_style_guide) and [templates](/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types).
+- Check whether suggestions for adding links comply with our [external links policy](/en-US/docs/MDN/Writing_guidelines/Writing_style_guide#external_links).
+
+#### Review the issue for completeness of information
 
 Review each issue against the following checklist to ensure that the issue contains the described information for someone to start working on the bug:
 
@@ -159,7 +169,7 @@ Review each issue against the following checklist to ensure that the issue conta
 - URL of an example page or repository related to the bug, if appropriate.
 - A clear description of what the problem is.
 
-If any of the above information is not present, then you should ask the author of the issue to provide these details and resume triaging the issue only after those details have been provided.
+If any of the above information is not present, then you should ask the author of the issue to provide these details and resume triaging the issue only after those details have been provided. It is okay to wait for up to a week to get a response from the author.
 
 #### Set a priority label
 
