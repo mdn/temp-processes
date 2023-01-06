@@ -92,7 +92,7 @@ Remember that if you take on an issue, the expectation is for the work to be com
 
 These are the general steps for working on an issue:
 
-1. **Find an issue:** If you're looking to contribute, search for issues with `help wanted` or `good first issue` label. Most repositories have issues with these labels. You are welcome to browse and pick an issue that is suitable for your skill set. Another useful place to look for issues to work on is the [MDN Contributors Task Board](https://github.com/orgs/mdn/projects/25). This project view lists open issues from multiple repositories. You can filter the list based on the topics (`Labels` column) you're interested in. See the description of some of the [labels](#Set_other_labels) that get applied during the issue triage process.
+1. **Find an issue:** If you're looking to contribute, search for issues with [`good first issue`, `help wanted`](#Set_other_labels) or [`p3`](#Set_a_priority_label) label. Most repositories have issues with these labels. You are welcome to browse and pick an issue that is suitable for your skill set. Another useful place to look for issues to work on is the [MDN Contributors Task Board](https://github.com/orgs/mdn/projects/25). This project view lists open issues from multiple repositories. You can filter the list based on the topics (`Labels` column) you're interested in. See the description of some of the [labels](#Set_other_labels) that get applied during the issue triage process.
 
    > **Note:** An issue with the `needs triage` label indicates that the MDN Web Docs core team has not reviewed the issue yet, and you shouldn't begin work on it.
 
@@ -186,7 +186,7 @@ In general, critical issues should be fixed immediately and are most likely hand
 
 #### Add helpful information
 
-If possible, add information that can help contributors to fix the issue. The information can be in the form of steps, direction, or reading resources. You can time-box this task to 5 minutes.
+If possible, add information that can help contributors to fix the issue. The information can be in the form of steps, general approach, links to other similar fixed issues, or reading resources. A well-laid out plan or steps is especially required in issues that are labeled `good first issue` and can help ramp up new contributors quickly. You can time-box this task to 5-10 minutes.
 
 For example, as a triager, you can add the following information to the issue you are triaging:
 
