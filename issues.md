@@ -106,7 +106,7 @@ These are the general steps for working on an issue:
 
 4. **Make the changes:** Fork and branch the repository. Do your work and open a [pull request](/en-US/docs/MDN/Community/Pull_requests) in the repository. [Reference the issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) in the pull request description. Depending on the files you've updated in the pull request, a reviewer will be assigned to your pull request automatically. (Teams per topic area are defined in the [CODEOWNERS](https://github.com/mdn/content/blob/main/.github/CODEOWNERS) file).
 
-   If you no longer have the time to work on the assigned issue, let the team know in a comment so that the issue can be assigned to someone else.
+   After opening the pull request, if you find you no longer have the time to make changes or incorporate review feedback, let the team know as soon as possible in a comment in the pull request. This will help the team assign another interested contributor to complete the work on the pull request and close the linked issue.
 
 5. After your pull request has been reviewed and merged, you can mark the linked issue as closed. If you opened the pull request with `Fixes #<issue>` verbiage, the issue will be closed automatically when the pull request is merged.
 
