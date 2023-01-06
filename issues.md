@@ -120,7 +120,7 @@ Using the [guidelines on working on an issue](#Guidelines_for_working_on_an_issu
 
 - The MDN Web Docs content (in English) in the [content](https://github.com/mdn/content) repository
 - The MDN Web Docs translated content in the [translated-content](https://github.com/mdn/translated-content) repository
-- The MDN Web Docs look and feel in the [yari](https://github.com/mdn/yari) repository
+- The MDN Web Docs website look and feel in the [yari](https://github.com/mdn/yari) repository
 
 Each repository includes useful information to guide you on how to contribute.
 
@@ -140,7 +140,7 @@ The overall process for triaging includes some [general](#general_triaging_tasks
 
 - You don't need to actively triage issues all the time. Set aside time, say 30 minutes every week, to triage issues on a regular basis in your area of responsibility. Triaging doesn't have to be done as part of a synchronous meeting or even at the same time as everyone else, but it should be done regularly to make sure that the backlog of untriaged bugs doesn't get too high.
 
-- Apart from triaging incoming issues every week, review the list of old bugs to see if there are any that are stalled, need closing, or are no longer relevant.
+- Apart from triaging incoming issues every week, review the list of old bugs to see if there are any that are stalled, need closing, or are no longer relevant. The `idle` label is automatically set on issues that have had no activity for 30 days.
   - Check assigned issues that are still open to see if the assignee is making progress. If there is no progress after a week of being assigned, ask them if they still have time to work on the issue. If another week passes by without any progress, unassign them and leave a comment indicating that you're making the issue available for other interested contributors.
   - If a pull request has been opened to fix the issue but has not been reviewed for a week, give the reviewer a gentle ping to ask if they can get to it.
   - If a pull request to fix the issue is waiting on review comments to be addressed after a week, then ask the author if they can respond to their review. If another week goes by, either fix the review comments yourself if you have time, or close the pull request and unassign the related issue.
@@ -163,10 +163,9 @@ These are some of the things to keep in mind while reviewing the validity of an 
 
 Review each issue against the following checklist to ensure that the issue contains the described information for someone to start working on the bug:
 
-- MDN URL where the problem has been found.
-- The specific heading or section on the MDN Web Docs page where the problem can be found.
-- URL of an example page or repository related to the bug, if appropriate.
-- A clear description of what the problem is.
+- URL of the MDN Web Docs page with the problem or URL of an example MDN Web Docs page if the problem exists on multiple pages.
+- The specific heading or section on the MDN Web Docs page where the problem was found.
+- A clear description of the incorrect, unhelpful, incomplete, or missing information.
 
 If any of the above information is not present, then you should ask the author of the issue to provide these details and resume triaging the issue only after those details have been provided. It is okay to wait for up to a week to get a response from the author.
 
@@ -180,7 +179,7 @@ For each bug, set a priority label based on the severity of the issue to help pe
 - Major issue: This type of issue could severely affect a page's usefulness. For example, a significant amount of out-of-date information, a complex and important code example that doesn't work, a significant amount of prose that is badly written and hard to understand, or a large number of broken links.
   - Labels: `p1` (will be addressed soon) and `p2` (will be addressed soon, but higher priority items will take precedence)
 
-- Minor issue — This is a type of improvement issue that can make the existing content better but does not affect learning or only has a minor effect on learning. Examples include typos, bad grammar, a broken link, a small amount of out-of-date information or badly-written prose, or a code snippet that doesn't work.
+- Minor issue — This is a type of improvement issue that can make the existing content better but does not affect learning or only has a minor effect on learning. Since these types of issues are not actively planned for, help from contributors to fix these issues is welcome and much appreciated. Fixing some of these issues can also provide the necessary practice to beginner contributors who are starting to get familiar with the contribution process. Examples include typos, bad grammar, a broken link, a small amount of out-of-date information or badly-written prose, or a code snippet that doesn't work.
   - Labels: `p3` (no visibility when the issue will be addressed)
 
 In general, critical issues should be fixed immediately and are most likely handled by MDN Web Docs staff and peers.
