@@ -114,7 +114,8 @@ These are the general steps for working on an issue:
 
 If you spot a bug — whether it's a problem with the website's look and feel or an error in documentation — you can try to fix it yourself. Learn how you can contribute by going through our [contribution guide](https://github.com/mdn/content/blob/main/CONTRIBUTING.md).
 
-In general, begin by [opening the issue](#guidelines_for_reporting_an_issue). Add a comment about your intent to work on the issue.
+In general, begin by [opening the issue](#guidelines_for_reporting_an_issue). Add a comment about your intent to work on the issue and if possible, your proposed solution or steps to fix the issue.
+Wait for the issue to be triaged, for the MDN Web Docs team to verify that the issue is legit and to approve your proposed solution. (If you open a pull request before the issue has been triaged, your time and effort might go waste if the linked issue is deemed invalid or the solution is not inline with the one expected by the MDN Web Docs team.)
 After the issue is triaged, assign the issue to yourself.
 Using the [guidelines on working on an issue](#Guidelines_for_working_on_an_issue), try to fix the problem by updating the appropriate source, such as:
 
